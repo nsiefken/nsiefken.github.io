@@ -16,7 +16,7 @@
 	border: 5px solid green;
 }
 
-#link1 {
+#link1:hover {
 	position: fixed;
 	top: 0px;
 	left: 0px;
