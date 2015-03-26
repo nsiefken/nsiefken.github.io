@@ -1,0 +1,47 @@
+#first {
+	text-align: center;
+	margin: 0px 250px 0px 250px;
+	border: 5px solid green;
+}
+
+#second {
+	text-align: center;
+	margin: 0px 250px 0px 250px;
+	border: 5px solid green;
+}
+
+#third {
+	text-align: center;
+	margin: 0px 250px 0px 250px;
+	border: 5px solid green;
+}
+
+#link1 {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+}
+
+#link2 {
+	position: fixed;
+	top: 20px;
+	left: 0px;
+}
+
+#link3 {
+	position: fixed;
+	top: 40px;
+	left: 0px;
+}
+
+#link4 {
+	position: fixed;
+	top: 60px;
+	left: 0px;
+}
+
+#link5 {
+	position: fixed;
+	top: 80px;
+	left: 0px;
+}
