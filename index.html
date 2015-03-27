@@ -7,22 +7,34 @@
 </head>
 
 	<body>
-		<div id = "first">
-  		<h1>Post Title</h1>
-  		<h2>The subtitle, if you want it</h2>
-  		<h4>Today's Date</h4>
+	<div id = "first">
+  <h1>CSS Positioning</h1>
+  <h2>The Difference Between Absolute, Relative, and Fixed Positioning</h2>
+  <h4>3-27-15</h4>
   <section>
-    	<p>
-      		I basically want each blog.
-    	</p>
-    	<p>
-        	To follow a paragraph form.
-    	</p>
-    	<p>
-        	And fit in one after the other, with the most recent blog on top.
-    	</p>
+    <p>
+      Positioning elements is one of the most important features to CSS, but can also be extremely confusing. In fact, I wrote this blog post b/c I was confused about positioning myself. Here I will go through the differences between Absolute, Relative, and Fixed positioning. There's a fourth type called Static, but that is the default position for any element, and is rarely ever used in CSS.
+    </p>
+    <p>
+      The first type of positioning is Absolute. Absolute positioning allows you to place an object wherever you want on the screen. The coordinates you type in are based on the screen. So if you type in
+      ``` Selector {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+    }
+    ```
+    the element will be place in the top left corner of your screen. Absolute positioning can be great and easy, but it also takes elements out from the flow of the page, meaning it's difficult to use with other objects. This is where Relative Positioning comes in
+    </p>
+    <p>
+        Relative Positioning places an object relative to itself and where it fits normally on the page. If you type in the same code as above but use relative instead of absolute, the object won't move at all because you told it to move from its top 0px and from its left 0px.
+    </p>
+    <p>
+        Fixed Positioning essentially glues an object to the page so when you scroll the object an still be seen. It is great if you want a navagational bar to always be seen, but it can be dangerous because you don't want a fixed object to cover up other objects as you scroll down the page. Each type of position has its own pros and cons and figuring out which position is the best all depends on what type of design you want for your site.
+    </p>
+
+      <!-- copy and paste as many sections as you want to add paragraphs -->
   </section>
-  		</div>
+  </div>
   		<div id = "second">
   			<h1>Dev Bootcamp</h1>
   <h2>A Unique Culture, A Unique Experience</h2>
