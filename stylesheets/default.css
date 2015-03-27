@@ -5,21 +5,21 @@ body {
 
 #first {
 	text-align: left;
-	margin: 0px 250px 0px 150px;
+	margin: 0px 150px 0px 250px;
 	border: 5px solid green;
 	background-color: white;
 }
 
 #second {
 	text-align: left;
-	margin: 0px 250px 0px 150px;
+	margin: 0px 150px 0px 250px;
 	border: 5px solid green;
 	background-color: white;
 }
 
 #third {
 	text-align: left;
-	margin: 0px 250px 0px 150px;
+	margin: 0px 150px 0px 250px;
 	border: 5px solid green;
 	background-color: white;
 }
