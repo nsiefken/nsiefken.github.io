@@ -7,18 +7,21 @@ body {
 	text-align: center;
 	margin: 0px 250px 0px 250px;
 	border: 5px solid green;
+	background-color: white;
 }
 
 #second {
 	text-align: center;
 	margin: 0px 250px 0px 250px;
 	border: 5px solid green;
+	background-color: white;
 }
 
 #third {
 	text-align: center;
 	margin: 0px 250px 0px 250px;
 	border: 5px solid green;
+	background-color: white;
 }
 
 #info {
@@ -26,6 +29,4 @@ body {
 	left: 0px;
 }
 
-#blog {
-	background-color: white;
-}
+
