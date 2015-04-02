@@ -43,4 +43,32 @@ body {
 	left: 0px;
 }
 
+#link1 {
+	position: fixed;
+	top: 40px;
+	left: 0px;
+}
 
+#link2 {
+	position: fixed;
+	top: 60px;
+	left: 0px;
+}
+
+#link3 {
+	position: fixed;
+	top: 80px;
+	left: 0px;
+}
+
+#link4 {
+	position: fixed;
+	top: 100px;
+	left: 0px;
+}
+
+#link5 {
+	position: fixed;
+	top: 120px;
+	left: 0px;
+}
