@@ -44,31 +44,31 @@ body {
 }
 
 #link1 {
-	position: fixed;
+	position: absolute;
 	top: 290px;
 	left: 20px;
 }
 
 #link2 {
-	position: fixed;
+	position: absolute;
 	top: 310px;
 	left: 20px;
 }
 
 #link3 {
-	position: fixed;
+	position: absolute;
 	top: 330px;
 	left: 20px;
 }
 
 #link4 {
-	position: fixed;
+	position: absolute;
 	top: 350px;
 	left: 20px;
 }
 
 #link5 {
-	position: fixed;
+	position: absolute;
 	top: 370px;
 	left: 20px;
 }
