@@ -49,26 +49,32 @@ body {
 	left: 20px;
 }
 
-#link2 {
-	position: absolute;
+#link6 {
+	position: fixed;
 	top: 310px;
-	left: 20px;
+	left: 0px;
 }
 
-#link3 {
+#link2 {
 	position: absolute;
 	top: 330px;
 	left: 20px;
 }
 
-#link4 {
+#link3 {
 	position: absolute;
 	top: 350px;
 	left: 20px;
 }
 
-#link5 {
+#link4 {
 	position: absolute;
 	top: 370px;
+	left: 20px;
+}
+
+#link5 {
+	position: absolute;
+	top: 390px;
 	left: 20px;
 }

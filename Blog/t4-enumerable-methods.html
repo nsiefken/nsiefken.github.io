@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<head>
+  <title>T4-Enumerable-Methods</title>
+  <meta charset="UTF-8">
+ <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css"/>
+  <link rel="stylesheet" type="text/css" href="../stylesheets/default.css"/>
+</head>
+
+<main>
+<body>
+  <div id = "first">
+  <h1>Taking A Look At Map</h1>
+  <h2>An Enumerable Object In Ruby</h2>
+  <h4>4-9-15</h4>
+  <section>
+    <p>
+      Map is an interesting enumerable method and one that seems like it could/should be used quite often. The simple basics of map it to take an array and run every item in that array through a block of code, similar to what .each does. Map is different however because map keeps the items in an array, and map! replaces the original array with the newly mapped array.
+    </p>
+    <p>
+        I used map in an earlier challenge this week during the insert commas into numbers challenge. I had different groups of individual numbers,four different numbers 1 2 3 4, and I needed it read as 1234. In order to push the numbers together I used .map{|y| y.join("")}. This took every number as y and ran the method join on them, and since I joined at ("") I took out the spaces between the numbers. It was the first time I had ever used map, and I think that's about the simplest way to use map.
+    </p>
+    <p>
+        Obviously map can be used for a lot of other things, but it's important to keep in mind that map will keep your array items in array form. I say this because a lot of times map will just modifiy the items in the array that you are planning on calling upon later, chances are if you modify those items you'll want to use the modified versions instead of their original items. This is where map! comes in b/c you actually overwrite the original array with the mapped array. An example I found online while researching map! used an array full of names, but all the names were in lower case. To capitalize all the names in the array you could use names.map! {|x| x.capitalize}. Now the items in the array names have been changed from lower case to upper case. The array with lower case names is now gone forever and replaced with an array with upper case names (NOTE: inside the {} you can use any variable you want. I've used y and now x in my examples in this blog, but it doesn't matter what you call them). I have a feeling map! is likely to be more common than map as we continue down our programming path.
+    </p>
+
+      <!-- copy and paste as many sections as you want to add paragraphs -->
+  </section>
+  </div>
+  
+</body>
+  
+   <div id="Links">
+    <p id="link1">
+      <a href="http://nsiefken.github.io/">Home</a>
+    </p>
+    <p id="link6">
+      <a href="http://nsiefken.github.io/Blog/c3-thinking-style.html">C3-Thinking Style</a>
+    </p>  
+    <p id="link2">
+      <a href="http://nsiefken.github.io/Blog/t3-arrays-hashes.html">T3-Arrays And Hashes</a>
+    </p>
+    <p id="link3">
+      <a href="https://nsiefken.github.io/Blog/t2-css-design.html">T2-CSS Design</a>
+    </p>
+    <p id="link4">
+      <a href="http://nsiefken.github.io/Blog/c1-chefs-kitchen.html">C1-Chefs Kitchen</a>
+    </p>
+    <p id="link5">
+      <a href="http://nsiefken.github.io/Blog/t1-git-blog.html">T1-Git Blog</a>
+    </p>
+  </div>
+</main>
+
