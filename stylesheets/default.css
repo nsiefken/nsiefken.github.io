@@ -64,13 +64,13 @@ body {
 }
 
 #link7 {
-	position:fixed;
+	position: absolute;
 	top: 310px;
 	left: 20px;
 }
 
 #link6 {
-	position: fixed;
+	position: absolute;
 	top: 330px;
 	left: 20px;
 }
