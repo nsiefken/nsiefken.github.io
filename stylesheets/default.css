@@ -1,60 +1,20 @@
 body {
-	background-color: beige;
+	background-color: maroon;
 	font-family: "Roboto";
 }
 
-#seventh {
+.blog {
 	text-align: left;
-	margin: 0px 100px 0px 250px;
+	margin: -4px 100px 0px 250px;
 	border: 5px solid maroon;
-	background-color: #9DBCBC;
-}
-
-#sixth {
-	text-align: left;
-	margin: 0px 100px 0px 250px;
-	border: 5px solid maroon;
-	background-color: #9DBCBC;
-}
-
-#fifth {
-	text-align: left;
-	margin: 0px 100px 0px 250px;
-	border: 5px solid maroon;
-	background-color: #9DBCBC;
-}
-
-#fourth {
-	text-align: left;
-	margin: 0px 100px 0px 250px;
-	border: 5px solid maroon;
-	background-color: #9DBCBC;
-}
-
-#first {
-	text-align: left;
-	margin: 0px 100px 0px 250px;
-	border: 5px solid maroon;
-	background-color: #9DBCBC;
-}
-
-#second {
-	text-align: left;
-	margin: 0px 100px 0px 250px;
-	border: 5px solid maroon;
-	background-color: #9DBCBC;
-}
-
-#third {
-	text-align: left;
-	margin: 0px 100px 0px 250px;
-	border: 5px solid maroon;
-	background-color: #9DBCBC;
+	background-color: beige;
+	padding: 5px;
 }
 
 #info {
 	top: 20px;
 	left: 0px;
+	color: beige;
 }
 
 #link1 {
@@ -97,4 +57,32 @@ body {
 	position: absolute;
 	top: 410px;
 	left: 20px;
+}
+
+#twitter {
+	position: absolute;
+    right: 17px;
+    top: -4px
+}
+
+#github {
+	position: absolute;
+    top: 30px;
+    right: 17px;
+}
+
+a {
+	background-color: beige;
+	color: black;
+	border: 3px solid beige;
+	padding: 0px 10px 0px 10px;
+	text-decoration: none;
+}
+
+a:hover {
+	background-color: gray;
+	color: white;
+	border: 3px solid gray;
+	padding: 0px 10px 0px 10px;
+	text-decoration: none;
 }
