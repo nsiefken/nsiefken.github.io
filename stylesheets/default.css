@@ -3,74 +3,6 @@ body {
 	font-family: "Roboto";
 }
 
-.blog {
-	text-align: left;
-	margin: -4px 100px 0px 250px;
-	border: 5px solid maroon;
-	background-color: beige;
-	padding: 5px;
-}
-
-#info {
-	top: 20px;
-	left: 0px;
-	color: beige;
-}
-
-#link1 {
-	position: absolute;
-	top: 290px;
-	left: 20px;
-}
-
-#link7 {
-	position: absolute;
-	top: 310px;
-	left: 20px;
-}
-
-#link6 {
-	position: absolute;
-	top: 330px;
-	left: 20px;
-}
-
-#link2 {
-	position: absolute;
-	top: 350px;
-	left: 20px;
-}
-
-#link3 {
-	position: absolute;
-	top: 370px;
-	left: 20px;
-}
-
-#link4 {
-	position: absolute;
-	top: 390px;
-	left: 20px;
-}
-
-#link5 {
-	position: absolute;
-	top: 410px;
-	left: 20px;
-}
-
-#twitter {
-	position: absolute;
-    right: 17px;
-    top: -4px
-}
-
-#github {
-	position: absolute;
-    top: 30px;
-    right: 17px;
-}
-
 a {
 	background-color: beige;
 	color: black;
@@ -86,3 +18,36 @@ a:hover {
 	padding: 0px 10px 0px 10px;
 	text-decoration: none;
 }
+
+.blog {
+	text-align: left;
+	margin: -4px 100px 0px 250px;
+	border: 5px solid maroon;
+	background-color: beige;
+	padding: 5px;
+}
+
+#info {
+	top: 20px;
+	left: 0px;
+	color: beige;
+}
+
+#links {
+	position: absolute;
+	top: 290px;
+	left: 20px;
+}
+
+#twitter {
+	position: absolute;
+    right: 17px;
+    top: -4px;
+}
+
+#github {
+	position: absolute;
+    top: 30px;
+    right: 17px;
+}
+
