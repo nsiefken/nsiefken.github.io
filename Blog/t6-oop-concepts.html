@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head>
-  <title>T3-Arrays-Hashes</title>
+  <title>T6-OOP-Concepts</title>
   <meta charset="UTF-8">
   <link rel="stylesheet" type="text/css" href="../stylesheets/default.css"/>
 </head>
@@ -8,18 +8,18 @@
 
 <body>
   <div class = "blog">
-  <h1>Arrays and Hashes</h1>
-  <h2>Understanding the Difference in Ruby</h2>
-  <h4>April Fools Day, 2015</h4>
+  <h1>OOP Concepts</h1>
+  <h2>Classes v. Modules</h2>
+  <h4>4-22-15</h4>
   <section>
     <p>
-      I made a small tweak to the blog template so hopefully this works. More tweaks to come tomorrow. Arrays and hashes can both be useful tools in Ruby because instead of storing and assigning one variable at a time, A+H's let you store multiple variables at once. The difference is in how these values are stored.
+      I wasn't (and still am not) very familiar with modules, which is the reason I wanted to Blog about them today. I've been pretty curious about classes v. modules myself, so I when I saw that on the challenge I knew they must be pretty similar. And it seems they are. Classes and modules are both used to group a bunch of code together, code that you will often want to type when building a giant program. They are tools to help you group specific lines of code together and easily use them over and over again.
     </p>
     <p>
-        An array stores variables in an ordered fashion and saves each variable as a number (starting with 0) based on the order you store them in the array. Because of this an array is great for storing an ordered list of items.
+      My understanding is modules can be used as a separate storage compartment when you need it. Classes are used to create instances but modules are not. Modules can collect methods and constants (and even classes!) but modules aren't used for instances.
     </p>
     <p>
-        A hash on the other hand pairs the variables with a key and a value. Basically, each variable (value) can be named (key) so you can easily call upon that variable without having to know which place in the order it lands. I'm still in the very early stages of using both arrays and hashes, but they seem to be so similar that once you get the hang of using one, the other should be extremely easy to pickup.
+      Modules can be used to store pieces of code that can then be used across multiple classes, let's say. If you look up modules (like I had to), you will often read that this helps prevent name clashes. If two methods or even two classes got named the same thing, modules can store them differently so your program knows which one to call on at the right time. Just think of modules as another layer of which to group and store your code. 
     </p>
 
       <!-- copy and paste as many sections as you want to add paragraphs -->
@@ -58,9 +58,6 @@
       <a href="http://nsiefken.github.io/">Home</a>
     </p>
     <p>
-      <a href="http://nsiefken.github.io/Blog/t6-oop-concepts">T6-OOP-Concepts</a>
-    </p> 
-    <p>
       <a href="http://nsiefken.github.io/Blog/c5-feedback.html">C5-Feedback</a>
     </p> 
     <p>
@@ -74,6 +71,9 @@
     </p>  
     <p>
       <a href="http://nsiefken.github.io/Blog/c3-thinking-style.html">C3-Thinking Style</a>
+    </p>  
+    <p>
+      <a href="http://nsiefken.github.io/Blog/t3-arrays-hashes.html">T3-Arrays And Hashes</a>
     </p>
     <p>
       <a href="https://nsiefken.github.io/Blog/t2-css-design.html">T2-CSS Design</a>
@@ -85,6 +85,5 @@
       <a href="http://nsiefken.github.io/Blog/t1-git-blog.html">T1-Git Blog</a>
     </p>
   </div>
-  </section>
+</section>
 </body>
-
