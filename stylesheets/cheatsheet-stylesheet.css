@@ -1,0 +1,22 @@
+body {
+	width: 640px;
+	height: 640px;
+	border-style: solid;
+}
+header {
+	font-size: 20px;
+	width: 175px;
+	margin-right: auto;
+	margin-left: auto;
+	color: white;
+}
+#ruby {
+	width: 640px;
+	margin-top: 25px;
+	float: left;
+}
+#javascript {
+	width: 640px;
+	height: 250px;
+	margin-top: 25px;
+}

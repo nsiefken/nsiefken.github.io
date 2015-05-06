@@ -1,0 +1,38 @@
+body {
+	margin-left: 50px;
+}
+header {
+	font-size: 35px;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	border-bottom: 5px solid black;
+	background-color: red;
+}
+#rubyhash {
+	margin-top: 25px;
+	width: 550px;
+	border: 2px solid black;
+	float: left;
+}
+#rubyarray {
+	margin-top: 25px;
+	width: 550px;
+	border: 2px solid black;
+	float: right;
+}
+
+#javascriptobject {
+	width: 550px;
+	margin-top: 25px;
+	border: 2px solid black;
+	clear: both;
+	float: left;
+}
+
+#javascriptarray {
+	width: 550px;
+	margin-top: 25px;
+	border: 2px solid black;
+	float: right;
+}
